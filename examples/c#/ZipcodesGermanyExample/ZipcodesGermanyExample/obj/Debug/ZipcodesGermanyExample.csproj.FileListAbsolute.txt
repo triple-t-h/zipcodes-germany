@@ -1,0 +1,8 @@
+C:\Users\LiamU\Desktop\triple-t-h\zipcodes-germany\examples\c#\ZipcodesGermanyExample\ZipcodesGermanyExample\bin\Debug\zipcodes-germany-cleaned-up.xml
+C:\Users\LiamU\Desktop\triple-t-h\zipcodes-germany\examples\c#\ZipcodesGermanyExample\ZipcodesGermanyExample\bin\Debug\ZipcodesGermanyExample.exe.config
+C:\Users\LiamU\Desktop\triple-t-h\zipcodes-germany\examples\c#\ZipcodesGermanyExample\ZipcodesGermanyExample\bin\Debug\ZipcodesGermanyExample.exe
+C:\Users\LiamU\Desktop\triple-t-h\zipcodes-germany\examples\c#\ZipcodesGermanyExample\ZipcodesGermanyExample\bin\Debug\ZipcodesGermanyExample.pdb
+C:\Users\LiamU\Desktop\triple-t-h\zipcodes-germany\examples\c#\ZipcodesGermanyExample\ZipcodesGermanyExample\obj\Debug\ZipcodesGermanyExample.csprojAssemblyReference.cache
+C:\Users\LiamU\Desktop\triple-t-h\zipcodes-germany\examples\c#\ZipcodesGermanyExample\ZipcodesGermanyExample\obj\Debug\ZipcodesGermanyExample.csproj.CoreCompileInputs.cache
+C:\Users\LiamU\Desktop\triple-t-h\zipcodes-germany\examples\c#\ZipcodesGermanyExample\ZipcodesGermanyExample\obj\Debug\ZipcodesGermanyExample.exe
+C:\Users\LiamU\Desktop\triple-t-h\zipcodes-germany\examples\c#\ZipcodesGermanyExample\ZipcodesGermanyExample\obj\Debug\ZipcodesGermanyExample.pdb
