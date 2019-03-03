@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Xml.Linq;
+using System;
 
 namespace ZipcodesGermanyExample
 {
@@ -27,14 +28,13 @@ namespace ZipcodesGermanyExample
         {
             _xmlDocument = _xmlDocument ?? XElement.Load("zipcodes-germany-cleaned-up.xml");
 
-            Regex rgx = new Regex($"{searched}", RegexOptions.IgnoreCase);
+            Regex rgx = new Regex($"\\b{searched}\\b", RegexOptions.IgnoreCase);
             
             IEnumerable<XElement> nodes = _xmlDocument.Elements();
-            IEnumerable<string> plzPlaces = from node in nodes
-                                            where rgx.IsMatch(node.Element(searchNode).Value)
-                                            select node.Element(resultNode).Value;
-
-            return plzPlaces.FirstOrDefault();
+            IEnumerable<string> result = from node in nodes
+                                         where rgx.IsMatch(node.Element(searchNode).Value)
+                                         select node.Element(resultNode).Value;
+            return string.Join(",", result.DefaultIfEmpty());
         }
     }
 }
