@@ -1,4 +1,4 @@
-# German Zip Codes  (Postleitzahl)
+# list of German zip codes  (Postleitzahl)
 
 German zip codes (Postleitzahl) as JSON and XML…\
 cleaned-up.(json|xml) files are lists of combined results.
